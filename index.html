@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Order Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>🍔 Foodie</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+    </nav>
+    <button class="cart">🛒 Cart <span id="count">0</span></button>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Delicious Food<br>Delivered To You!</h1>
+        <p>Fresh, tasty and delicious food at your doorstep.</p>
+        <a href="#menu" class="order">Explore Menu</a>
+    </div>
+    <div class="food">🍕</div>
+</section>
+
+<section id="menu">
+    <h2>Our Popular Food</h2>
+
+    <div class="products">
+        <div class="card">
+            <div class="emoji">🍔</div>
+            <h3>Cheese Burger</h3>
+            <p>₹120</p>
+            <button onclick="addCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🍕</div>
+            <h3>Pizza</h3>
+            <p>₹199</p>
+            <button onclick="addCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🍟</div>
+            <h3>French Fries</h3>
+            <p>₹90</p>
+            <button onclick="addCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🥪</div>
+            <h3>Sandwich</h3>
+            <p>₹100</p>
+            <button onclick="addCart()">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<footer id="about">
+    <h2>Foodie ❤️</h2>
+    <p>Made with love. Enjoy your food!</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
